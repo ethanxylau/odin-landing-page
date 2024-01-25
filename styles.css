@@ -1,0 +1,168 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* section 1 */
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 0 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header h2 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header ul {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content-1 {
+    flex: 1;
+    display: flex;
+    gap: 32px;
+}
+
+
+.content-1 h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.content-1 p {
+    font-size: 18px;
+    color:#e5e7eb
+}
+
+.img {
+    flex: 1;
+    width: 550px;
+    height: 200px;
+    background-color: grey;
+    margin-bottom: 100px;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: #3882f6;
+    border-radius: 7px;
+    border: none;
+    color: #e5e7eb;
+    font-size: 12px;
+}
+
+
+/* section 2 */
+.section-two {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.section-two h2 {
+    margin: 36px 0;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+.box-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 140px;
+}
+.box {
+    border: 3px #3882f6 solid;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+
+/* section 3 */
+.section-three {
+    background-color: #e5e7eb;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section-three p:nth-of-type(1) {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    max-width: 750px;
+}
+
+.section-three p:nth-of-type(2) {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-left: 500px;
+}
+
+/* section 4 */
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 12px 0;
+}
+.cta-text {
+    color: #e5e7eb;
+}
+button {
+    border: 2px white solid;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 20px;
+    color: #e5e7eb;
+}
