@@ -46,21 +46,27 @@ a {
 }
 
 .content-1 {
-    flex: 1;
     display: flex;
     gap: 32px;
 }
 
+.content-1-main {
+    flex: 1;
+}
 
 .content-1 h1 {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
+    margin: 0;
+    padding: 0;
 }
 
 .content-1 p {
     font-size: 18px;
-    color:#e5e7eb
+    color:#e5e7eb;
+    margin: 0;
+    padding: 0;
 }
 
 .img {
@@ -78,6 +84,7 @@ button {
     border: none;
     color: #e5e7eb;
     font-size: 12px;
+    margin-top: 10px;
 }
 
 
